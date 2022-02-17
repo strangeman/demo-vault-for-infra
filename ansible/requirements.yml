@@ -1,0 +1,7 @@
+collections:
+  - name: "community.hashi_vault"
+    version: "2.1.0"
+roles:
+  - src: git+https://github.com/TerryHowe/ansible-modules-hashivault.git
+    version: master
+    name: ansible-modules-hashivault
